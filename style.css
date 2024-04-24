@@ -1,0 +1,621 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aliceblue;
+}
+
+.main {
+    /* background-color: red; */
+    height: 100vh;
+}
+
+.section {
+
+    /* background-color: aqua; */
+
+
+}
+
+.left {
+    /* background-color: green; */
+    margin-top: 10px;
+
+}
+
+.right {
+    /* background-color: beige; */
+}
+
+.head-1 {
+
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: left;
+
+}
+
+.head-2 {
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: left;
+    color: #ECAD15;
+
+
+}
+
+.right p {
+    color: black;
+    font-size: 1em;
+}
+
+.btn-yellow {
+    background-color: #ECAD15;
+    color: #fff;
+    border-radius: 1px !important;
+    transition: 2s;
+}
+
+.btn-yellow:hover {
+    color: balck;
+}
+
+.btn-grey {
+    background-color: #252525;
+    color: #fff;
+    border-radius: 1px !important;
+    transition: 2s;
+
+}
+
+.btn-grey:hover {
+    color: balck;
+}
+
+.veg-section {
+    text-align: center;
+}
+
+
+/* second cabbage css */
+
+.container-cabbage {
+    /* background-color: #15eccf; */
+    width: 100%;
+    height: 100vh;
+}
+
+.cabbage-head {
+    /* background-color: #27ec15; */
+    /* height: 70vh; */
+    text-align: center;
+
+}
+
+.carrot-image {
+    width: 80px;
+    margin: 0 auto;
+
+}
+
+.cabbage-image {
+    width: 700px;
+    height: 70vh;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cabbage-image button {
+    background-color: #1a1c24;
+    color: white;
+    width: 120px;
+    height: 38px;
+    border-radius: 10px;
+    transition: 2s;
+
+}
+
+.cabbage-image button:hover {
+    background-color: white;
+    color: black;
+}
+
+/*................ cards css start .......................*/
+.cards {
+    /* background-color: #153cec; */
+    width: 300px;
+    height: 490px;
+    border: 3px dashed rgb(104, 99, 99);
+    margin: 10px;
+    display: inline-block;
+
+}
+
+.des button:hover {
+    background-color: white;
+    color: black;
+}
+
+.container {
+     display: flex;
+}
+
+.des button {
+    background-color: #1a1c24;
+    color: white;
+    width: 120px;
+    height: 38px;
+    border-radius: 10px;
+    transition: 2s;
+
+
+
+}
+
+.des {
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.image {
+    /* background-color: #5c5f6e; */
+    width: 300px;
+    height: 150px;
+    padding-top: 30px;
+
+
+}
+
+
+/* .......................SECTION WHY CHOOSE US .....................................*/
+.footer {
+    width: 120px;
+    height: 20vh;
+    margin: 0 auto;
+    padding-top: 30px;
+
+
+}
+
+.chooseimage {
+    /* background-color: #1523ec; */
+    width: 100px;
+    height: 10vh;
+    margin: 0 auto;
+
+}
+
+.choosehead h1 {
+    text-align: center;
+}
+
+.centerimage img {
+    width: 500px;
+
+}
+
+.centerimage {
+    text-align: center;
+
+    / width: 500px;
+    height: 45vh;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.centerimage button:hover {
+    background-color: white;
+    color: black;
+}
+
+.centerimage button {
+    background-color: #1a1c24;
+    color: white;
+    width: 120px;
+    height: 38px;
+    border-radius: 10px;
+    transition: 2s;
+
+}
+
+.footer button:hover {
+    background-color: white;
+    color: black;
+
+}
+
+.footer button {
+    background-color: #1a1c24;
+    color: white;
+    width: 120px;
+    height: 38px;
+    border-radius: 10px;
+    transition: 2s;
+}
+
+.container-choose {
+    /* background-color: #26bae7; */
+    width: 100%;
+    height: 90vh;
+
+}
+
+/* ......................................CLIENT CSS START..................................... */
+
+.container-footer {
+    /* background-color: #e726cd; */
+    width: 100%;
+    height: 50vh;
+    /* text-align: center; */
+    display: flex;
+
+}
+
+.container-client {
+    /* background-color: #cae726; */
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+
+
+}
+
+.client-heading {
+    /* background-color:rgb(205, 50, 50); */
+    width: 250px;
+    height: 40vh;
+    padding-left: 20px;
+}
+
+.client-image {
+    /* background-color:yellowgreen; */
+    width: 250px;
+    height: 35vh;
+    /* margin-left: 60px; */
+    margin-left: 300px;
+
+
+}
+
+.client-image img {
+    width: 100%;
+
+}
+
+/*.................... SECTION CONTACT US............................. */
+
+.container-contact {
+    /* background-color: #26e760; */
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+
+
+}
+
+/*.................... SECTION form start............................. */
+.container-form {
+    /* background-color: rgb(0, 255, 42); */
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    /* text-align: center; */
+    /* flex-wrap: wrap; */
+
+}
+
+.contact-form {
+    /* background-color: rgb(46, 34, 151); */
+    width: 600px;
+    height: 70vh;
+    margin-left: 60px;
+
+}
+
+.contact-form input {
+    width: 400px;
+    margin: 20px;
+    height: 40px;
+    padding: 20px;
+}
+
+.contact-form textarea {
+    /* width: 400px; */
+    margin: 20px;
+    height: 150px;
+    padding: 20px;
+
+}
+
+/* .map{
+    background-color:green;
+    width: 600px;
+    height: 70vh;
+    margin-right: 60px;
+
+} */
+.footerbtn {
+    /* background-color:blue; */
+    width: 100%;
+    height: 15vh;
+}
+
+.footerbtn button:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+
+.footerbtn button {
+    background-color: #93ac07;
+    color: white;
+    width: 120px;
+    height: 38px;
+    border-radius: 10px;
+    transition: 2s;
+    margin-left: 45%;
+}
+
+/*.................... SECTION form end............................. */
+
+/* ....................................footer section start ....................................*/
+.container-info {
+    background-color: grey;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    color: white;
+
+}
+
+.newsletter input {
+    margin: 30px 0 30px 0;
+    height: 40px;
+    width: 250px;
+    border-radius: 10px;
+    padding-left: 30px;
+
+
+}
+
+.newsletter button:hover {
+    background-color: white;
+    color: black;
+}
+
+.newsletter button {
+    /* margin-left:30px; */
+    height: 40px;
+    width: 140px;
+    border-radius: 20px;
+    background-color: rgb(236, 213, 6);
+    transition: 2s;
+}
+
+.newsletter {
+    /* background-color: #4e15ec; */
+    width: 400px;
+    height: 50vh;
+    padding-left: 30px;
+}
+
+.address {
+    /* background-color: #eccc15; */
+    width: 400px;
+    height: 50vh;
+    padding-left: 30px;
+
+}
+
+.social-links {
+    /* background-color: #ec1520; */
+    width: 400px;
+    height: 50vh;
+    padding-left: 30px;
+
+}
+
+/*.................. footer section start...................................... */
+
+
+
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .main {
+        background-color: #ECAD15;
+    }
+
+    .veg {
+        margin-top: 155px !important;
+    }
+}
+
+/* responsive.css */
+@media (min-width: 300px) and (max-width: 576px) {
+    .main {
+        /* background-color: aquamarine; */
+    }
+
+    .section {
+        padding-top: 10px !important;
+    }
+
+    .ownbtn {
+        margin-top: 40px !important;
+
+    }
+
+    .btn-grey,
+    .btn-yellow {
+        margin: 10px;
+    }
+
+    .right p {
+        text-align: left;
+    }
+
+    .veg {
+        margin-bottom: 10px;
+        ;
+    }
+
+    .cabbage-image img {
+        width: 300px;
+        padding-top: 50px;
+    }
+
+    .cabbage-image {
+        width: 300px;
+        height: 54vh;
+
+
+    }
+
+    .carrot-image {
+        margin-top: 50px;
+
+    }
+
+    .container-cabbage {
+        height: 80vh;
+    }
+
+    .cards {
+        height: 430px;
+    }
+
+    .centerimage {
+        width: 300px;
+        height: 45vh;
+
+    }
+
+    .centerimage img {
+        width: 300px;
+
+    }
+
+    .container-choose {
+        height: 90vh;
+    }
+
+    .veg-head {
+        padding-top: 40px;
+    }
+
+    .client-image {
+        flex: none;
+        margin: 0;
+        width: 330px;
+    }
+
+    .container-footer {
+        height: 100vh;
+
+    }
+
+    .client-heading {
+        margin-top: 305px;
+        position: absolute;
+        height: 50vh;
+        padding-left: 20px;
+        padding-top: 30px;
+        width: 330px;
+
+    }
+
+    .container-form {
+        display: flex;
+        flex-wrap: wrap;
+        height: 80vh;
+    }
+
+    .map {
+        /* width: 700px; */
+        /* background-color: #15eccf; */
+        margin: 0;
+        height: 45vh;
+
+    }
+
+    .contact-form {
+        margin: 0;
+        height: 30vh;
+        width: 300px;
+    }
+
+    .contact-form input {
+        width: 300px;
+        margin: 20px;
+        height: 40px;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .contact-form textarea {
+        width: 300px;
+        /* margin: 20px; */
+        height: 200px;
+        padding: 20px;
+        border-radius: 10px;
+
+    }
+
+    .footerbtn button {
+        margin-left: 120px;
+    }
+
+    .container-info {
+        background-color: rgb(29, 25, 25);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+
+        flex-wrap: wrap;
+
+    }
+
+    .address {
+        padding-left: 40px;
+        height: 30vh;
+
+    }
+
+    .social-links {
+        padding-left: 40px;
+        height: 30vh;
+        margin: 0;
+    }
+
+    .newsletter {
+        /* padding:40px; */
+        height: 30vh;
+
+    }
+
+    .newsletter input {
+        /* margin:20px 20px 20px 0; */
+        height: 40px;
+        width: 230px;
+        border-radius: 10px;
+        padding: 20px;
+
+    }
+
+    .newsletter button {
+        /* margin:0px 20px 20px 0; */
+        height: 40px;
+        width: 140px;
+        border-radius: 20px;
+        background-color: yellow;
+    }
+
+    .footerbtn {
+        width: 300px;
+    }
+}
